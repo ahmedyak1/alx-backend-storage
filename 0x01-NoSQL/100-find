@@ -1,0 +1,4 @@
+// List all documents with name starting by Holberton in the collection school
+// Use Regex
+
+db.school.find({"name": /^Holberton.*$/})
